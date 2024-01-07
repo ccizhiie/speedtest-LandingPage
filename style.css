@@ -17,3 +17,37 @@ a {
 ul {
     list-style: none;
 }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+header .logo {
+    color: #0f99cc;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    padding: 0 20px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+    background-color: white;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
