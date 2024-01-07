@@ -51,3 +51,43 @@ ul li {
     gap: 10px;
     padding: 20px;
 }
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+}
+
+section {
+    display: flex;
+    padding: 100px 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e7e7e7;
+}
+
+.circle {
+    background-color: #0f99cc;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 60%;
+}
+
+.hero-text p {
+    color: #888;
+}
+
+.btn {
+    background-color: #0f99cc;
+    color: white;
+    max-width: max-content;
+    margin-top: 10px;
+    padding: 10px 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
